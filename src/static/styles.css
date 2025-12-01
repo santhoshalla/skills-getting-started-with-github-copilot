@@ -63,6 +63,8 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  /* Add some spacing for the participants section */
+  padding-bottom: 20px;
 }
 
 .activity-card h4 {
@@ -141,4 +143,57 @@ footer {
   margin-top: 30px;
   padding: 20px;
   color: #666;
+}
+
+.participants-section {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #eef3fb;
+  border-radius: 4px;
+}
+
+.participants-section strong {
+  color: #3949ab;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.participants-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0;
+  color: #333;
+  font-size: 15px;
+}
+
+.participant-item {
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+.delete-btn:hover {
+  background-color: rgba(198,40,40,0.08);
+}
+
+.no-participants {
+  background-color: #f9f9f9;
+  color: #888;
+  font-style: italic;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: left;
 }
